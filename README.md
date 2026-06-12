@@ -224,13 +224,12 @@ Repository settings still need to be configured manually:
 1. Go to repository Settings.
 2. Go to Pages.
 3. Choose GitHub Actions as the source.
-4. Add repository variables:
-   - `ENABLE_GITHUB_PAGES_DEPLOY` set to `true` after Pages is enabled.
-   - `VITE_BASE_PATH` set to `/Nivara-Clean-/` for a project Pages site. The workflow also defaults to `/Nivara-Clean-/` if this variable is missing.
-   - `VITE_SUPPORT_URL` set to the hosted support page if you want the Support button enabled.
-5. Confirm the deployment URL after the workflow runs.
+4. Confirm the deployment URL after the workflow runs.
 
-Until `ENABLE_GITHUB_PAGES_DEPLOY=true` is set, the workflow will still run install, typecheck, tests, and build, but it will skip the Pages API calls. This avoids a GitHub Pages setup error before the repository has Pages enabled.
+Optional repository variables:
+
+- `VITE_BASE_PATH` can stay unset because the workflow defaults to `/Nivara-Clean-/`.
+- `VITE_SUPPORT_URL` can be set to the hosted support page if you want the Support button enabled.
 
 ## Publishing to GitHub
 
