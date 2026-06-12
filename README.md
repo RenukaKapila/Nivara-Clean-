@@ -1,46 +1,48 @@
 # Nivara
 
-Nivara is a privacy-first scam learning MVP for everyday people. It helps users pause, check suspicious messages, learn warning signs, and practice realistic scam examples before they click, reply, pay, or share personal information.
+Nivara is a privacy-first scam learning side project for everyday people. It helps users pause, check suspicious messages, learn warning signs, and practice realistic scam examples before they click, reply, pay, or share personal information.
 
 Tagline: **Learn the red flags before they learn you.**
 
-## Website
+## Open the Website
 
-Open the public MVP: [https://renukakapila.github.io/Nivara-Clean-/](https://renukakapila.github.io/Nivara-Clean-/)
+Use the live project here:
 
-## MVP Status
+**[Open Nivara](https://renukakapila.github.io/Nivara-Clean-/)**
 
-Nivara is currently a local-first browser MVP. It is not a full SaaS product yet.
+## What It Does
 
-Active in this MVP:
+Nivara is a browser-based learning tool for scam awareness. It is designed to be simple, practical, and privacy-friendly.
 
-- Local message warning-sign analysis
-- Private-detail redaction for common patterns
-- Scam learning lessons
-- Practice Lab scenarios
-- Scam Library examples
-- Before You Pay checklist
-- Safe Share redaction template
-- Family Practice flow
-- Optional Support Nivara page configured by `VITE_SUPPORT_URL`
-- Local progress tracking
-- Monthly modules and badges
-- Help and recovery guidance
-- Privacy, terms, and disclaimer pages
+You can use it to:
 
-Not active yet:
+- Paste a suspicious message and get a local warning-sign check
+- Learn common scam patterns through short lessons
+- Practice with realistic scam examples in the Scam Lab
+- Browse a Scam Library of examples and safe actions
+- Use the Before You Pay checklist before sending money
+- Create a safer redacted version of a message with Safe Share
+- Walk through family practice scenarios for safer conversations
+- Find reporting and recovery resources if something already happened
 
-- Real login or signup
-- Supabase auth
-- Email sending
-- SMS sending
-- Stripe payments
-- In-app payment processing
-- AI provider calls
-- Cloud history
-- Saved contacts
-- Browser extension
-- Admin dashboard
+## How to Use It
+
+1. Open [Nivara](https://renukakapila.github.io/Nivara-Clean-/).
+2. Start with **Check a Message** if you have a suspicious text, email, DM, or payment request.
+3. Review the warning signs and safer next steps.
+4. Visit **Learning Center** or **Scam Lab** to practice spotting red flags.
+5. Use **Before You Pay** before sending money, gift cards, crypto, deposits, or account details.
+6. Use **Safe Share** when you want to ask someone for help without exposing private information.
+
+## Privacy Notes
+
+Nivara is local-first in this MVP. Message checks run in the browser with local rules, and progress is stored only in the current browser using `localStorage`.
+
+Nivara is educational. It cannot guarantee that something is or is not a scam. For important situations, verify through official websites, official apps, or known phone numbers.
+
+## Project Status
+
+This is a public MVP, not a full SaaS product. There is no real login, signup, payment processing, cloud history, AI provider call, email sending, SMS sending, or admin dashboard in this version.
 
 ## Tech Stack
 
