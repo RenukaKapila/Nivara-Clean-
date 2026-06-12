@@ -31,7 +31,7 @@
 
 - [ ] `vite.config.ts` supports `VITE_BASE_PATH`
 - [ ] `VITE_BASE_PATH` is `/` locally
-- [ ] GitHub Pages project deployment uses `/Nivara-clean/` if needed
+- [ ] GitHub Pages project deployment uses `/Nivara-Clean-/` if needed
 - [ ] GitHub Actions Pages source is enabled in repository settings
 - [ ] Repository variable `ENABLE_GITHUB_PAGES_DEPLOY` is set to `true` only after Pages is enabled
 - [ ] Deployment URL checked after workflow runs

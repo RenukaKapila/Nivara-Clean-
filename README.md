@@ -6,7 +6,7 @@ Tagline: **Learn the red flags before they learn you.**
 
 ## Website
 
-Open the public MVP: [https://renukakapila.github.io/Nivara-clean/](https://renukakapila.github.io/Nivara-clean/)
+Open the public MVP: [https://renukakapila.github.io/Nivara-Clean-/](https://renukakapila.github.io/Nivara-Clean-/)
 
 ## MVP Status
 
@@ -205,10 +205,10 @@ VITE_BASE_PATH=/
 
 For local development, keep `VITE_BASE_PATH=/`.
 
-For a GitHub Pages project site named `Nivara-clean`, set:
+For a GitHub Pages project site named `Nivara-Clean-`, set:
 
 ```bash
-VITE_BASE_PATH=/Nivara-clean/
+VITE_BASE_PATH=/Nivara-Clean-/
 ```
 
 The included GitHub Actions workflow at `.github/workflows/deploy.yml` runs on pushes to `main` and:
@@ -226,7 +226,7 @@ Repository settings still need to be configured manually:
 3. Choose GitHub Actions as the source.
 4. Add repository variables:
    - `ENABLE_GITHUB_PAGES_DEPLOY` set to `true` after Pages is enabled.
-   - `VITE_BASE_PATH` set to `/Nivara-clean/` for a project Pages site. The workflow also defaults to `/Nivara-clean/` if this variable is missing.
+   - `VITE_BASE_PATH` set to `/Nivara-Clean-/` for a project Pages site. The workflow also defaults to `/Nivara-Clean-/` if this variable is missing.
    - `VITE_SUPPORT_URL` set to the hosted support page if you want the Support button enabled.
 5. Confirm the deployment URL after the workflow runs.
 
@@ -257,7 +257,7 @@ git commit -m "Prepare Nivara launch MVP"
 Connect to GitHub:
 
 ```bash
-git remote add origin https://github.com/RenukaKapila/Nivara-clean.git
+git remote add origin git@github.com:RenukaKapila/Nivara-Clean-.git
 ```
 
 Push the branch:
